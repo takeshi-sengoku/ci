@@ -7,4 +7,11 @@ $ret2 = BtB::push(1)->push('+')->push(1)->calc();
 
 var_dump($ret1, $ret2, $ret1 === $ret2);
 
+class psr2 {
+	const psr2 = 'PSR-2違反';
+
+	function Error () {
+
+	}}
+
 こわれたこーど
