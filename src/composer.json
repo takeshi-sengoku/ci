@@ -1,0 +1,13 @@
+{
+    "name": "sample/ci",
+    "description": "ci test",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "sample\\": "vendor/sample",
+            "ickx\\": "vendor/ickx"
+        }
+    }
+}
