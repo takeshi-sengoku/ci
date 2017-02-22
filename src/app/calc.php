@@ -2,10 +2,8 @@
 
 namespace app;
 
-use \sample\ci\classes\{
-	AtA,
-	BtB
-};
+use \sample\ci\classes\AtA;
+use \sample\ci\classes\BtB;
 
 $ret1 = AtA::push(1)->push('+')->push(1)->calc();
 $ret2 = BtB::push(1)->push('+')->push(1)->calc();
