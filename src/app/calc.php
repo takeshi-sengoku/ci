@@ -21,4 +21,7 @@ class psr2 {
 
     	echo $array1 === $array2;
 
+    	echo print_r($array1, $array2);
+
+    	echo print_r($array1, $array2);
     }}
