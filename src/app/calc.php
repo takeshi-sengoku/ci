@@ -15,4 +15,7 @@ class psr2 {
 
     function Error () {
 
+    	$array1 = array(1);
+
+    	$array2 = [2];
     }}
