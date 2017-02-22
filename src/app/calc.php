@@ -17,5 +17,7 @@ class psr2 {
 
     	$array1 = array(1);
 
-    	$array2 = [2];
+    	$array2 = [1];
+
+    	$array1 === $array2;
     }}
